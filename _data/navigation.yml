@@ -10,6 +10,10 @@ main:
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
+    children: 
+      - title: "children test"
+      - url: /void/
+     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
