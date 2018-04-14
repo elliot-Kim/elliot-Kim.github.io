@@ -2,7 +2,7 @@
 title: "sample"
 layout: "archive"
 sidebar:
-  - doc
+  nav: "docs"
 ---
 
 asdf
