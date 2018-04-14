@@ -1,11 +1,12 @@
 ---
 title: "sample"
 layout: "single"
+author_profile: true
 sidebar:
   nav: "docs"
-  author_profile: true
 ---
 
 asdfasdf
 asdf
 **asdf**
+1. asdf
