@@ -24,11 +24,11 @@ main:
   #   url: /sitemap/
 
 docs:
-  - title: Getting Started
+  - title: Programming
     children:
-      - title: "Quick-Start Guide"
+      - title: "JavaScript"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Python3"
         url: /docs/structure/
       - title: "Installation"
         url: /docs/installation/
