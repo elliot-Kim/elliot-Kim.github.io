@@ -1,9 +1,8 @@
 ---
 title: "sample"
-layout: "single"
+layout: "default"
 sidebar:
   nav: "docs"
-author_profile: true
 ---
 
 asdfasdf
