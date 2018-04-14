@@ -1,7 +1,7 @@
 ---
 title: "test1"
 layout: "single"
-author profile: "true"
+author_profile: "true"
 ---
 
 #test
