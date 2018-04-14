@@ -1,6 +1,6 @@
 ---
 title: "sample"
-layout: "archive"
+layout: "single"
 sidebar:
   nav: "docs"
 ---
