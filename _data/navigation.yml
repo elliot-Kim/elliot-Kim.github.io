@@ -29,7 +29,7 @@ docs:
       - title: "JavaScript"
         url: /docs/quick-start-guide/
       - title: "Python3"
-        url: /Python3_archive/
+        url: /python3_archive/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
