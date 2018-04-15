@@ -1,8 +1,8 @@
 ---
-title: "Python3"
+title: Edge Case
 layout: category
-permalink: /categories/Python3/
-taxonomy: "python3333"
+permalink: /categories/python3/
+taxonomy: python3
 ---
 
-asdffdfdf
+Sample post listing for the category `Edge Case`.
