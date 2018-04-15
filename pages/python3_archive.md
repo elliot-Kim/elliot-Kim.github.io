@@ -1,4 +1,3 @@
-
 ---
 title: "Python3"
 layout: categories
