@@ -1,6 +1,6 @@
 ---
 title: "Python3"
-layout: categories
+layout: category
 permalink: /categories/Python3/
 author_profile: true
 ---
