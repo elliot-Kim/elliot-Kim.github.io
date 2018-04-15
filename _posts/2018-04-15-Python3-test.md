@@ -1,5 +1,6 @@
 ---
 title:  "Exclude Post from Search Index"
+layout: "single"
 search: false
 categories: 
   - Python3
