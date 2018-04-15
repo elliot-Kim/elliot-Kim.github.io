@@ -4,7 +4,7 @@ layout: category
 taxonomy: Python3
 author_profile: true
 sidebar:
-  nav: "docs"
+  nav: "doc"
 ---
 
 asdfasdf
