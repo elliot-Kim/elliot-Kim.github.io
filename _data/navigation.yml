@@ -26,7 +26,7 @@ doc:
       - title: "JavaScript"
         url: /docs/quick-start-guide/
       - title: "Python3"
-        url: /pages/python3-archive/
+        url: /pages/python3/
 
   - title: Projects
     children:
