@@ -1,9 +1,12 @@
 ---
-title: python3
-layout: category
-permalink: /categories/python3/
-taxonomy: Python3
+title: "sample"
+layout: "single"
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
 
-asdf111111
-s
+asdfasdf
+asdfsdsdsdsd
+**asdf**
+1. asdf
