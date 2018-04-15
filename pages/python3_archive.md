@@ -1,7 +1,7 @@
 ---
 title: "Python3"
 layout: categories
-permalink: /Python3/
+permalink: /categories/Python3/
 author_profile: true
 ---
 
