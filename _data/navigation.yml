@@ -3,7 +3,7 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: /_pages/python3_archive/
+    url: /_pages/python3-archive/
   - title: "Sample Posts"
     url: /sample/
   - title: "Sample Collections"
