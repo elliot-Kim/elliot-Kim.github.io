@@ -26,7 +26,7 @@ doc:
       - title: "JavaScript"
         url: /docs/quick-start-guide/
       - title: "Python3 blabla"
-        url: /_pages/python3_archive/
+        url: /pages/python3_archive/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
