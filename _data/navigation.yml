@@ -28,7 +28,7 @@ docs:
     children:
       - title: "JavaScript"
         url: /docs/quick-start-guide/
-      - title: "Python3"
+      - title: "Python3 blabla"
         url: /python3_archive/
       - title: "Installation"
         url: /docs/installation/
