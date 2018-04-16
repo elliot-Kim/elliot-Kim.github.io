@@ -7,4 +7,5 @@ sidebar:
   nav: "doc"
 ---
 
-Python3, Learn Python3 the Hard Way 
+Python3, Learn Python3 the Hard Way 한글판
+
