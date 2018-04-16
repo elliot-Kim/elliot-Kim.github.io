@@ -1,33 +1,22 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: /index.html/
   - title: "About"
-    url: /python3/
-  - title: "Sample Posts"
     url: /sample/
-  - title: "Sample Collections"
-    url: /python3-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-     
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
+  
 doc:
   - title: Programming
     children:
       - title: "JavaScript"
         url: /docs/quick-start-guide/
+      - title: "Jquery"
+        url: /pages/jquery/
       - title: "Python3"
         url: /pages/python3/
-
+      - title: "Git"
+        url: /pages/git/
+     
   - title: Projects
     children:
       - title: "Not yet"
@@ -41,3 +30,5 @@ doc:
         url: /docs/posts/
       - title: "Thoughts"
         url: /docs/posts/
+      - title: "Theme Guide"
+        url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
