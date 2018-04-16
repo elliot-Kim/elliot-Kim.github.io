@@ -7,7 +7,4 @@ sidebar:
   nav: "doc"
 ---
 
-asdfasdf
-asdfsdsdsdsd
-**asdf**
-1. asdf
+Python3, Learn Python3 the Hard Way 
