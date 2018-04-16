@@ -40,7 +40,7 @@ print(f"Total number of person in {car_name} is {number_of_person}")
 
 위 코드를 실행하면
 
-```python
+```
 Total number of person in jaguar is 10
 ```
 
@@ -56,8 +56,9 @@ print(f"I can put the variable in the string like this {variable}")
 ```
 
 If you run above,
-
+```
 I can put the variable in the string like this one
+```
 There is another method to formatting using .format().
 
 See example.
@@ -70,7 +71,7 @@ print(handsome_eval.format(handsome))
 
 If you run above,
 
-```python
+```
 Am I handsome? right
 ```
 
@@ -103,7 +104,7 @@ print(z)
 
 could be
 
-```python
+```
 I
 am
 a boy.
@@ -116,6 +117,6 @@ print('a' * 10)
 ```
 
 can be
-```python
+```
 aaaaaaaaaa
 ```
