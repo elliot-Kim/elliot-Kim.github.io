@@ -1,14 +1,121 @@
 ---
-title:  "Exclude Post from Search Index"
-layout: "single"
-search: false
+title:  "[python] python3 힘들게 배우기 #2"
 categories: 
   - Python3
-last_modified_at: 2018-02-19T08:06:00-05:00
+tags:
+  - lpthw
 ---
+이 책의 제목.. phython3 the hard way. 
+힘든 방법이 쉬운 방법이다..이건데. 
+우리말로하면 뭘까? 아마 ‘우공이산’ 같은 한자성어가 비슷한 뜻을 지닌 것 같다. 여기서 원하는건 단지 세가지다.
 
-This post should not appear in the search index because it has the following YAML Front Matter:
+각 exercise 를
+typing해서
+실행하게 하라
+ex가 50개가 넘는다. 가봅시다..
 
-```yaml
-search: false
+## ex4.변수와 이름
+
+향후 코드 퀄리티를 위해 변수와 그 이름을 잘 정하는것은 매우 중요하다. 이름만 보고 어떤 역할을 하는 변수인지 파악할 수 있는 것이 베스트..
+
+```python
+cars = 10
+person_in_a_car = 4
+print("Total number of person is ", cars * person_in_a_car, " person")
+```
+요렇게 print 안에 , 로 구분지어서 출력 가능하다.
+
+
+## ex.5 변수와 printing
+
+JS와 다르게, formatted string을 사용할 수 있다. 무슨말이냐 한고, string안에 변수를 심어서 사용할 수 있다. (embeded)
+
+```python
+number_of_person = 10
+car_name = 'jaguar'
+print(f"Total number of person in {car_name} is {number_of_person}")
+```
+
+“” 앞에 있는 f 는 formated를 뜻하고 이것은 인터프리터에게 ‘이 스트링 안에는 변수가 들어있음’ 이라고 알려준다. “” 안에 위치한 변수들은 {}컬리브레이스로 엮어주면 된다.
+
+위 코드를 실행하면
+
+```python
+Total number of person in jaguar is 10
+```
+
+요렇게 나온다.
+
+## ex.6 Strings and Text
+
+Python can tell the string variable y quote or double-quote(“, ‘). And if you put the letter in front of the string, it can be called “f-string(formatted string).”
+
+```python
+variable = one
+print(f"I can put the variable in the string like this {variable}")
+```
+
+If you run above,
+
+I can put the variable in the string like this one
+There is another method to formatting using .format().
+
+See example.
+
+```python
+handsome = "right"
+handsome_eval = "Am I handsome? {}"
+print(handsome_eval.format(handsome))
+```
+
+If you run above,
+
+```python
+Am I handsome? right
+```
+
+Also, if you have a experiance with JS, also ‘+’ works to join multiple strings.
+
+## ex7. More prints
+
+We already know what is the purpose of ‘+’ operator
+
+```python
+x = 'I'
+y = 'am'
+z = 'a boy.'
+print(x + y + z)
+```
+
+can be
+
+```python
+I am a boy.
+```
+
+What if you want print it each lane,
+
+```python
+print(x)
+print(y)
+print(z)
+```
+
+could be
+
+```python
+I
+am
+a boy.
+```
+
+You can also use ‘*’ operator to iterate some string
+
+```python
+print('a' * 10)
+```
+
+can be
+```python
+aaaaaaaaaa
 ```
