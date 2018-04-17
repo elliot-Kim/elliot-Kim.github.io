@@ -9,7 +9,7 @@ doc:
   - title: Programming
     children:
       - title: "JavaScript"
-        url: /docs/quick-start-guide/
+        url: /pages/javascript/
       - title: "Jquery"
         url: /pages/jquery/
       - title: "Python3"
