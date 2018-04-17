@@ -107,7 +107,8 @@ addEventListener()
 ```
 
 event listener를 달아주는 method이다. 즉..
-getElementById 등으로 element를 불러온 후 .addEventListener( <이벤트명>, <function>) 형식으로 작동한다.
+`getElementById` 등으로 element를 불러온 후 `.addEventListener( <이벤트명>, <function>)` 형식으로 작동한다.
+
 예시)
 ```html
 function linkClick() { alert(“This link is going nowhere”);
