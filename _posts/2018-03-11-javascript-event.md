@@ -81,12 +81,14 @@ function handle(e) { alert(e.type);}
 
 즉 element 를 먼저 만들어놓고, 나중에 script에서 element 에 .onclick 등의 method에 선언한 function을 연결하는 것. 
 
-
+```html
 <a id=”someLink” href=”somepage.html”> Click Me </a>
 …
 <script>
 function linkClick()={};
 document.getElementById(“someLink”).onclick = linkClick;
+```
+
 
 
 이 방법을 이용하면, Event1 글에서 다루었던 어떤 event인지 구분할 수 있는 방법은 없어지게 되는데.. (function을 execute하는 것이 아니라 단지 onclick 이라는 prop에 linkClick 이라는 function을 assign 한 것에 불과하다. olinkClick 뒤에 pathensis()가 있어서 변수를 전달하는 게 아님에 주목하라) 또 다 방법이 있다. 자동적으로 event object를 전달하므로!
