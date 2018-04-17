@@ -39,13 +39,13 @@ Event를 통해 CODE를 실행시키는 방법은 여러 가지가 있다. 특�
 ### 첫번째. HTML attribute을 이용한 Event 핸들링
 
 ```html
-<a href=”somepage.html” onclick=”alert(‘You clicked?’)”>Click Me</a>
+<a href="somepage.html" onclick="alert('You clicked?')">Click Me</a>
 ```
 
 `<a>` 태그는 자체적으로 onclick 시에 지정된 링크로 이동하는 기능을 가진 (특수한) 태그지만, onclick attribute을 임의로 추가함으로서 alert CODE를 추가적으로 실행할 수 있게 만들었다. 라인이 하나일 경우에는 쓸 수 있으나, 복잡한 CODE를 실행시키에는 맞지 않다. 이를 위해서는 onclick에 function을 연결하면 된다.
 
 ```html
-<img src=”usa.gif” onclick=”changeImg(this)” />
+<img src="usa.gif" onclick="changeImg(this)" />
 
 …
 
@@ -61,9 +61,9 @@ function changeme(that){}
 추가적으로, 위와 같이 function이 2개 이상의 element에 연결되어 있을 때, 어떤 element를 통해 해당 이벤트가 발생했는지 확인해볼 필요가 있을 수 있다. 이 때는 다음과 같은 방법을 이용한다.
 
 ```html
-<p ondblclick=”handle(event)”>Paragraph</p>
-<h1 onclick=”handle(event)”>Heading 1</h1> 
-<span onmouseover=”handle(event)”>Special Text</span>
+<p ondblclick="handle(event)">Paragraph</p>
+<h1 onclick="handle(event)">Heading 1</h1> 
+<span onmouseover="handle(event)">Special Text</span>
 <script> 
 function handle(e) { alert(e.type);} 
 </script>
@@ -83,11 +83,11 @@ function handle(e) { alert(e.type);}
 즉 element 를 먼저 만들어놓고, 나중에 script에서 element 에 .onclick 등의 method에 선언한 function을 연결하는 것. 
 
 ```html
-<a id=”someLink” href=”somepage.html”> Click Me </a>
+<a id="someLink" href="somepage.html"> Click Me </a>
 …
 <script>
 function linkClick()={};
-document.getElementById(“someLink”).onclick = linkClick;
+document.getElementById("someLink").onclick = linkClick;
 ```
 
 
