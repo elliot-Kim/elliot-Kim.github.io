@@ -20,20 +20,21 @@ js에서 어떤 일을 수행할 수 있을 때, 언제 수행할 것인지를 �
 
 ### Event의 종류를 알아보자
 
-Mouse event: 마우스를 이용해 하는 모든 것들 . 클릭, 커서 이동, 더블클릭, 드래그 등
-Keyboard Event : 키보드를 누를 때, 뗄 때
-Progression Event : object가 다른 상태로 변화할때를 통칭한다.
-Form event : form(?)안의 무엇인가 변화할 때
-Mutation event : DOM nodes가 변화할 때 ← 3번과 뭐가 다름?
-Touch Event : user가 sensor를 touch할때
-Error event : error 가 발생할 때
+1. Mouse event: 마우스를 이용해 하는 모든 것들 . 클릭, 커서 이동, 더블클릭, 드래그 등
+2. Keyboard Event : 키보드를 누를 때, 뗄 때
+3. Progression Event : object가 다른 상태로 변화할때를 통칭한다.
+4. Form event : form(?)안의 무엇인가 변화할 때
+5. Mutation event : DOM nodes가 변화할 때 ← 3번과 뭐가 다름?
+6. Touch Event : user가 sensor를 touch할때
+7. Error event : error 가 발생할 때
+
 Event를 통해 CODE를 실행시키는 방법은 여러 가지가 있다. 특히 obj자체에도 event관련 method나 property 가 있는 것들이 있으나, native js에는 존재하지 않고, 특수한 obj들 — BOM과 DOM은 갖고 있다.
 
 3가지 event 수행 방법에 대해 하나씩 알아보도록 하자.
 
-Assigning HTML attributes
-Assigning an object’s special properties
-Calling an object’s special methods
+1. Assigning HTML attributes
+2. Assigning an object’s special properties
+3. Calling an object’s special methods
 
 ### 첫번째. HTML attribute을 이용한 Event 핸들링
 
