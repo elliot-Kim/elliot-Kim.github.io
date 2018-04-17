@@ -104,7 +104,7 @@ document.getElementById(“someLink”).onclick = linkClick;
 EventTarget obj를 새로 이해해야한다. 바로 이벤트가 일어나는 target, element를 뜻하며 기존에 이용한 e.target과 같지만, W3C에서 standard로 만든 obj이다. 이를 이용해서 어떤 이벤트가 일어나는지 알 수 있고 listen 방법을 지정할 수도 있다. 
 두가지 중요한 method가 있는데, 
 
-```html
+```js
 addEventListener()
 ```
 
@@ -112,7 +112,7 @@ event listener를 달아주는 method이다. 즉..
 `getElementById` 등으로 element를 불러온 후 `.addEventListener( <이벤트명>, <function>)` 형식으로 작동한다.
 
 예시)
-```html
+```js
 function linkClick() { alert(“This link is going nowhere”);
 e.preventDefault();
 }
@@ -121,7 +121,7 @@ link.addEventListener(“click”, linkClick);
 
 
 당연히 기명 함수를 쓰는것이 reuse하기에 좋다. 
-```
+```js
 removeEventListener()
 ```
 
@@ -130,7 +130,7 @@ addEventListener()로 이미 달아놓은 event listener를 지우는 함수이�
 이 standard방법이 object property에 assign하는 것보다 유리한 점은 무엇일까? 바로 하나의 event listener에 여러 개의 function을 달 수 있다는 점이다..!(property 는 하나밖에 못 assign하잖아) extreamly useful하다고 함
 like this..
 
-```html
+```js
 elementObj.addEventListener(“click”, handlerOne);
 elementObj.addEventListener(“click”, handlerTwo);
 elementObj.addEventListener(“click”, handlerThree);
