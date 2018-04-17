@@ -104,7 +104,7 @@ document.getElementById(“someLink”).onclick = linkClick;
 EventTarget obj를 새로 이해해야한다. 바로 이벤트가 일어나는 target, element를 뜻하며 기존에 이용한 e.target과 같지만, W3C에서 standard로 만든 obj이다. 이를 이용해서 어떤 이벤트가 일어나는지 알 수 있고 listen 방법을 지정할 수도 있다. 
 두가지 중요한 method가 있는데, 
 
-```
+```html
 addEventListener()
 ```
 
