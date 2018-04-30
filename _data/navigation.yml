@@ -8,12 +8,12 @@ main:
 doc:
   - title: Programming
     children:
+      - title: "Python3"
+        url: /pages/python3/
       - title: "JavaScript"
         url: /pages/javascript/
       - title: "Jquery"
         url: /pages/jquery/
-      - title: "Python3"
-        url: /pages/python3/
       - title: "Git"
         url: /pages/git/
      
