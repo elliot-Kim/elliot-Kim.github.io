@@ -1,0 +1,92 @@
+---
+title:  "[python] python3 힘들게 배우기 #8"
+categories:
+  - Python3
+tags:
+  - lpthw
+sidebar:
+  nav: "doc"
+---
+
+## ex25. 
+
+## ex25. 연습 한번 더!
+
+이번에 배울 내용은 (제목과는 사뭇 다르게) 새로운 내용이다. 커스텀 함수 라이브러리 파일을 만들고, 그것을 파이썬에서 import해서 실행시키는 과정을 연습해 본다. 커스텀 함수에는 처음 보는 기본 라이브러리 함수들이 있지만 JS를 배웠다면 쉽게 수행할 수 있는 수준의 것들이다. 
+
+> 이번부터 array개념이 등장한다. 
+
+이번에는 실행시키는 방법이 조금 다르니 주의하도록 하자. 
+
+먼저 다음과 같이 커스텀 함수를 작성하자. 이것은 단순 라이브러리 script로서 뭔가 실행되는 것은 아니다. 
+
+```python
+# 먼저 4개의 뼈대 함수를 정의한다.
+
+# 1. split함수. string을 받아 arg기준으로 array로 바꿔준다. 
+def break_word(sentence):
+    return sentence.split(' ')
+
+# 2-1. sort함수(array용)
+def sort_word(words):
+    return sorted(words)
+
+# 2-2. 첫번째 요소를를 pop(빼내서)후 print하는 함수
+def print_first(words):
+    first = words.pop(0)
+    print(first)
+
+# 2-3. 마지막 요소를 pop(빼내서)후 print하는 함수
+def print_last(words):
+    last = words.pop(-1)
+    print(last)
+
+# 이제 위 4개의 뼈대함수로 응용함수를 구성해 보자
+# 문장을 단어로 쪼개 (단어 앞글자 기준으로) 정렬하는 함수
+def sort_sentence(sentence):
+    words = break_word(sentence)
+    return sort_word(words)
+
+# 문장의 맨 앞과 마지막 요소를 빼내서 프린트하는 함수
+def print_first_last(sentence):
+    words = break_word(sentence)
+    print_first(words)
+    print_last(words)
+
+# 문장을 sort한 후 맨 앞과 마지막 요소를 빼내서 프린트하는 함수
+def print_sorted_first_last(sentence):
+    words = break_word(sentence)
+    sorted_words = sort_word(words)
+    print_first(sorted_words)
+    print_last(sorted_words)
+```
+
+이번에는 파이썬을 실행시킨 후 거기서 ex25.py를 import해보겠다.먼저 터미널에서 ex25.py가 있는 디렉토리로 이동한 후, python을 실행시키자. 아래와 같은 문구가 나오면 python이 실행된 것이다.  
+
+```
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+프롬프트 뒤에 `import ex25`라고 쳐서 import시킨다. 
+
+이후에 아래의 과정을 진행해 보자 
+
+```
+>>> import ex25
+>>> ex = "YOU ARE THE MOST BEAUTIFUL GIRL"
+>>> words = ex25.break_word(ex)
+>>> words
+['YOU', 'ARE', 'THE', 'MOST', 'BEAUTIFUL', 'GIRL']
+>>> ex25.print_first_last(ex)
+YOU
+GIRL
+>>> ex25.print_sorted_first_last(ex)
+ARE
+YOU
+>>>
+```
+
+> pop 함수는 array(파이썬에서는 list)라고 부르는 듯 의 요소를 제거하는것을 잊지 말자 ^^
+
