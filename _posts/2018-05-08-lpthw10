@@ -1,0 +1,110 @@
+---
+title:  "[python] python3 힘들게 배우기 #10"
+categories:
+  - Python3
+tags:
+  - lpthw
+---
+
+## ex28. Boolean Practice
+
+딱히 할 건 없다. 저자가 원하는건 좀 복잡한 수준의 참거짓 판정을 보자마자 하는 수준으로 하길 원하는데.. 아직 내가 큰 감흥이 없네. 이를테면 이런 거다. 
+
+```
+1 != 0 and ("Boy" == "Girl" or True) 
+```
+
+이걸 Python에 입력하면 어떻게 나올까? 쳐보기 전에 생각해보자. 먼저 괄호 안을 먼저 생각해야 한다. "Boy" == "Girl"은 False로 볼 수 있다. 따라서 False or True는? True다. 괄호 밖의 1 != 0 은 True로 볼수 있겠다. 따라서 True and True로 귀결이 되고, 이것은 True이다. 
+Python에 입력해보면?
+
+```
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 1 != 0 and ("Boy" == "Girl" or True)
+True
+>>> 
+```
+
+True이다. 
+
+
+## ex29~30. If문~elif문 연습 
+
+
+다른 언어에서와 마찬가지로, 조건문은 기초 중에 기초이다. Python에서는 function문법과 마찬가지로 If문법 역시 :(세미컬런)과 4칸 들여쓰기로 구분한다. 들여쓰기가 정확하지 않으면 에러를 뱉어낸다.
+
+세 가지 단어를 사용하게 될 텐데 `if`, `elif`, `else`이다. (else if는 왜 줄여쓰는거야)
+
+다음의 예제를 보면 쉽게 이해가 갈 듯 하다. 
+
+```python
+chicken = 4
+person = 5
+
+if chicken < person:
+    print("Need more chicken.")
+elif chicken > person: 
+    print("We got plenty of chicken.")
+else:
+    print("We have exactly number of chicken we need.")
+```
+
+`else`뒤에도 세미컬런이 붙는 것에 유의한다.
+> 마치 영어에서의 one, another, the others와 비슷한 느낌이다. 
+
+
+## ex. 31 조건문으로 게임 만들기 (Nested 조건문 포함)
+
+`if statement`를 이용해서 간단한 TRPG 느낌 나는 게임을 만들어 볼 수 있다. (..)
+>중요한 것은 조건문 = Branch(가지) 라는 것을 이해하면 된다. 
+
+아래와 같이 코드를 작성하자.
+
+```python
+print("""There are 2 gates infront of you. 
+Which one are you going to open?
+1. blue gate
+2. red gate""")
+
+gate = input('type gate number >')
+
+if gate == '1':
+    print("""There are one big pizza. Do you want eat?
+1. eat
+2. Don't eat""")
+    decision = input('type answer number >')
+    if decision == '1':
+        print("It's very delicious.")
+    elif decision == '2':
+        print("You're good to out.")
+    else:
+        print("Please type right number.")
+elif gate == '2':
+    print("You decided to know the truth. There is no pizza.")
+else:
+    print("Please type right number.")
+```
+
+> User input값이 string으로 들어옴("1")에 주의하자 
+
+
+ex31.py로 저장한 후 `python ex31.py` 로실행해 보자. 
+
+
+``` 
+There are 2 gates infront of you.
+Which one are you going to open?
+1. blue gate
+2. red gate
+type gate number >1
+There are one big pizza. Do you want eat?
+1. eat
+2. Don't eat
+type answer number >1
+It's very delicious.
+```
+
+이렇게 가능하다. 
+
+
+
