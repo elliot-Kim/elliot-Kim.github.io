@@ -33,10 +33,9 @@ comments:
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-     https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            :  5 (default)
-    colorscheme          :  "light" (default), "dark"
+    appid                : https://developers.facebook.com/docs/plugins/comments
+    num_posts            : 5 (default)
+    colorscheme          : "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
