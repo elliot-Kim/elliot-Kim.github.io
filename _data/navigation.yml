@@ -10,6 +10,8 @@ doc:
     children:
       - title: "Python3"
         url: /pages/python3/
+      - title: "Py4e"
+        url: /pages/py4e/
       - title: "JavaScript"
         url: /pages/javascript/
       - title: "Jquery"
