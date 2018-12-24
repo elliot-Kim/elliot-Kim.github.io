@@ -12,6 +12,8 @@ doc:
         url: /pages/python3/
       - title: "Py4e"
         url: /pages/py4e/
+      - title: "Android"
+        url: /pages/android/
       - title: "JavaScript"
         url: /pages/javascript/
       - title: "Jquery"
