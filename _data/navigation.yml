@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /index.html/
   - title: "About"
-    url: /sample/
+    url: /about/
   
 doc:
   - title: Programming
