@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "mint" #"default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "yonung Kim's Blog"
+title                    : "young Kim's Blog"
 title_separator          : "-"
 name                     : "Doh-young(Elliot) Kim"
-description              : "JS, python3 development student."
+description              : "JS, python3, Android development student."
 url                      : "https://elliot-kim.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "elliot-Kim/elliot-Kim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -27,7 +27,7 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 100
 comments:
-  provider               : "google-plus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" #"google-plus" # false (default), , "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -99,7 +99,7 @@ analytics:
 author:
   name             : "Doh-young(Elliot) Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "JS, python3 development student."
+  bio              : "JS, python3, Android development student."
   location         : "Seoul"
   email            : "kadinuls@naver.com"
   uri              :
