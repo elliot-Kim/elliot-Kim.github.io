@@ -2,14 +2,9 @@
 layout: archive
 ---
 
-<head>
-  <div style="position: relative;">
-    <img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
-      <div style="left: 100px; width: 450px; bottom: 140px; font-size: 1.8em; font-weight: bold; position: absolute;">
-        Test 
-      </div>
-  </div>
-</head>
+  <head>
+    {% include head/custom_image.html %}
+  </head>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
