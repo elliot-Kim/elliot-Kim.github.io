@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: /
+    url: /_pages/custom_home/
   - title: "About"
     url: /about/
   
