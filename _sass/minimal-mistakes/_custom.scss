@@ -3,12 +3,10 @@
   font-size: 30px;
   margin-top: 70px;
   vertical-align: middle;
+  width: 25%;
 }
 
 .landing_image img {
-  position: absolute;
-  text-align: center;
-  top: 30px;
-  left: 50px;
-  width: 200px;
+  max-width: 100%; 
+  height: auto;
 }
