@@ -1,12 +1,12 @@
 .landing_image { 
-  width: 100%;
-  height: auto;
+  display: inline-block;
+  width: 25%;
 } 
 
 .thumbnail { 
-  position: relative; 
-  padding-right: 20%;
-  overflow: hidden; 
+  position: relative;
+  padding-top: 50%;
+  overflow: hidden;
 } 
 
 .thumbnail img { 
@@ -17,4 +17,20 @@
   bottom: 0; 
   max-width: 100%; 
   height: auto; 
+}
+
+.thumbnail .centered  {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  -webkit-transform: translate(50%,50%);
+    -ms-transform: translate(50%,50%);
+    transform: translate(50%,50%);
+}
+.thumbnail .centered img {
+  -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
