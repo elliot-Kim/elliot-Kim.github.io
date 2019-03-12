@@ -110,7 +110,11 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :"https://github.com/elliot-Kim"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/elliot-Kim"
+  github           :
   gitlab           :
   google_plus      :
   keybase          :
