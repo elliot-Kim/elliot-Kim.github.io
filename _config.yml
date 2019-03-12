@@ -97,7 +97,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Doh-young(Elliot) Kim"
+  name             : "Elliot Kim"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "JS, python3, Android development student."
   location         : "Seoul"
