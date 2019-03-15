@@ -1,7 +1,10 @@
 ---
-layout:single
+title: android
+layout: single
+author_profile: true
+sidebar:
+  nav: "doc"
 ---
-
 
 
 {% include figure 
