@@ -30,8 +30,8 @@ doc:
 
   - title: Personal
     children:
-      - title: "Pictures"
-        url: /docs/posts/
+      - title: "Photograph"
+        url: /_pages/photograph/
       - title: "Thoughts"
         url: /docs/posts/
       - title: "Theme Guide"
