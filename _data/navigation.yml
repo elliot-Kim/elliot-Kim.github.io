@@ -12,6 +12,8 @@ doc:
         url: /pages/python3/
       - title: "Py4e"
         url: /pages/py4e/
+      - title: "Boost Course"
+        url: /pages/Boostcourse/
       - title: "Android"
         url: /pages/android/
       - title: "Jquery"
