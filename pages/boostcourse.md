@@ -1,7 +1,7 @@
 ---
 title: boost course
 layout: category
-taxonomy: Boostcourse
+taxonomy: boostcourse
 author_profile: true
 sidebar:
   nav: "doc"
