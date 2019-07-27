@@ -1,8 +1,7 @@
 ---
 title:  "[boost course] Compound Button"
 categories:
-  - Android
-  - Boost Course
+  - boostcourse
 tags:
   - 부스트코스
   - 안드로이드프로그래밍
