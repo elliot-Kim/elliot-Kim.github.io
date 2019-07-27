@@ -22,7 +22,7 @@ tags:
 즉 기본적으로 두가지 상태를 갖고 있고, 클릭시에 자동으로 변환된다는 말이다. 
 이 버튼을 이용하면 굳이 onClickListener를 달지 않고도 상태변화를 이용할 수 있다.
 
-!(https://developer.android.com/images/ui/togglebutton.png)
+![토글버튼](https://developer.android.com/images/ui/togglebutton.png)
 
 4.0이상에서는 스위치도 이용할 수 있으니 참고하자. 
 
