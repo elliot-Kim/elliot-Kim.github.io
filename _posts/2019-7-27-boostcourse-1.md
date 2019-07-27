@@ -23,7 +23,8 @@ tags:
 
 ![토글버튼](https://developer.android.com/images/ui/togglebutton.png)
 
-4.0이상에서는 스위치도 이용할 수 있으니 참고하자. 
+android v 4.0이상에서는 스위치도 이용할 수 있으니 참고하자. 
+![switch](https://developer.android.com/images/ui/switch.png)
 
 ## 구현 
 
@@ -50,9 +51,9 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-## onUpCheckedChangeListener
+## OnCheckedChangeListener
 
-핵심은 onUpCheckedChangeListener 구현이다. 클릭함에 따라 온오프 상태 바뀌는 거는 내장 기능이므로, 온오프에 따라 어떻게 변화시켜줘야 할지 작성해야 한다. 
+핵심은 OnCheckedChangeListener 구현이다. 클릭함에 따라 온오프 상태 바뀌는 거는 내장 기능이므로, 온오프에 따라 어떻게 변화시켜줘야 할지 작성해야 한다. 
 
 참고링크:[클릭](https://developer.android.com/guide/topics/ui/controls/togglebutton)
 
