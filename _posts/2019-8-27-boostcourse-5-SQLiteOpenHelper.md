@@ -32,7 +32,7 @@ Database 생성과 버전 컨트롤을 쉽게 할 수 있게 도와주는 helper
 이 method는 언제나 빠르게 return되는데, DB가 `getWritableDatabase()` 또는 `getReadableDatabase()`가 호출될 때까지는 실제로 생성되거나 열리지 않기 때문이다. 
 
 | Parameter | 의미 |
-|---|:---:|---:|
+|---|:---:|
 | context | db 로의 경로 배치를 위함. `null` 가능 |
 | name | db file 의 이름 또는 in-memory database일 경우 null |
 | factory | `SQLiteDatabase.CursorFactory`: cursor 객체 생성을 위함. default는 null|
